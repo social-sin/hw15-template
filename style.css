@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 24px;
+  color: #262626;
+  background-color: #F2F2F2;
+}
+
+body {
+  width: 1300px;
+  margin: 48px auto;
+}
+
+.text{
+  column-count: 3;
+  column-gap: 48px;
+  text-align: justify;
+}
+
+p{
+  line-height: 36px;
+  padding-bottom: 12px;
+}
+
+h1{
+    font-family: palatino, serif;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+h2 {
+  font-style: italic;
+  font-size: 19px;
+  margin-bottom: 48px;
+  font-weight: 400;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+}
